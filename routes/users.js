@@ -11,6 +11,9 @@ const User = require('../models/User');
  * @route POST api/users
  * @route Register a user
  * @route Public
+ * @param {string} route
+ * @param {array} check
+ * @param {function} callback
  */
 router.post(
   '/',
